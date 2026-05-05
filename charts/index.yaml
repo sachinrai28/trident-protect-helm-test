@@ -3,13 +3,13 @@ entries:
   trident-protect-console:
   - apiVersion: v2
     appVersion: 26.05.0-console
-    created: "2026-05-05T21:56:07.282831+05:30"
+    created: "2026-05-05T23:43:20.705543+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
       version: 100.2605.0-console
     description: helm chart for NetApp Trident Protect Connector and Trident Protect.
-    digest: 7cf46873d3de056a344dc2b67801fe59573a5cdcb062b426fff6065c8b3c9c8d
+    digest: 3fe7d677e56d5762e73310acf2ed0a4c270369635db9a55afeb60c8b6ebb1418
     kubeVersion: '>= 1.24.0-0'
     name: trident-protect-console
     type: application
@@ -18,17 +18,17 @@ entries:
     version: 100.2605.0-console
   - apiVersion: v2
     appVersion: 26.04.0-console
-    created: "2026-05-05T21:56:07.280149+05:30"
+    created: "2026-05-05T23:43:20.701773+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
       version: 100.2604.0-console
     description: helm chart for NetApp Trident Protect Connector and Trident Protect.
-    digest: 5a419c8ae5de11402142dddf70d9a16c0c3b4c82df57830c3f02573c62cccbfd
+    digest: 173a0c0e581251ee5121b56a1051cbbed4973b24c719b7bb532d15ecc2b36505
     kubeVersion: '>= 1.24.0-0'
     name: trident-protect-console
     type: application
     urls:
     - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2604.0-console.tgz
     version: 100.2604.0-console
-generated: "2026-05-05T21:56:07.274851+05:30"
+generated: "2026-05-05T23:43:20.695814+05:30"
