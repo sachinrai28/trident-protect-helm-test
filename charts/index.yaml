@@ -1,26 +1,34 @@
 apiVersion: v1
 entries:
-  trident-protect:
+  trident-protect-console:
   - apiVersion: v2
-    appVersion: 26.05.0
-    created: "2026-05-05T21:36:39.476391+05:30"
-    description: NetApp's Trident protect helm chart for Kubernetes Data Management.
-    digest: 0ec522e57467426d7a6bbca85e524d9a53f8b60a5b82eb6599862f372f15a984
+    appVersion: 26.05.0-console
+    created: "2026-05-05T21:56:07.282831+05:30"
+    dependencies:
+    - name: trident-protect
+      repository: ""
+      version: 100.2605.0-console
+    description: helm chart for NetApp Trident Protect Connector and Trident Protect.
+    digest: 7cf46873d3de056a344dc2b67801fe59573a5cdcb062b426fff6065c8b3c9c8d
     kubeVersion: '>= 1.24.0-0'
-    name: trident-protect
+    name: trident-protect-console
     type: application
     urls:
-    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-100.2605.0.tgz
-    version: 100.2605.0
+    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2605.0-console.tgz
+    version: 100.2605.0-console
   - apiVersion: v2
-    appVersion: 26.04.0
-    created: "2026-05-05T21:36:39.473116+05:30"
-    description: NetApp's Trident protect helm chart for Kubernetes Data Management.
-    digest: 4850a054bdcc7a9538cec26082b9d8c8d17c274f3b2d7f11233b211d4f0d4cc9
+    appVersion: 26.04.0-console
+    created: "2026-05-05T21:56:07.280149+05:30"
+    dependencies:
+    - name: trident-protect
+      repository: ""
+      version: 100.2604.0-console
+    description: helm chart for NetApp Trident Protect Connector and Trident Protect.
+    digest: 5a419c8ae5de11402142dddf70d9a16c0c3b4c82df57830c3f02573c62cccbfd
     kubeVersion: '>= 1.24.0-0'
-    name: trident-protect
+    name: trident-protect-console
     type: application
     urls:
-    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-100.2604.0.tgz
-    version: 100.2604.0
-generated: "2026-05-05T21:36:39.470605+05:30"
+    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2604.0-console.tgz
+    version: 100.2604.0-console
+generated: "2026-05-05T21:56:07.274851+05:30"
