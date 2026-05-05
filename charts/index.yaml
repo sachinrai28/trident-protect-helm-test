@@ -3,13 +3,24 @@ entries:
   trident-protect:
   - apiVersion: v2
     appVersion: 26.05.0
-    created: "2026-05-05T21:28:09.177464+05:30"
+    created: "2026-05-05T21:36:39.476391+05:30"
     description: NetApp's Trident protect helm chart for Kubernetes Data Management.
-    digest: addd9e7e2f158dbfd41b4e9b422cc7b648794bcad0892e26d4d9b33715276fd6
+    digest: 0ec522e57467426d7a6bbca85e524d9a53f8b60a5b82eb6599862f372f15a984
     kubeVersion: '>= 1.24.0-0'
     name: trident-protect
     type: application
     urls:
     - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-100.2605.0.tgz
     version: 100.2605.0
-generated: "2026-05-05T21:28:09.174591+05:30"
+  - apiVersion: v2
+    appVersion: 26.04.0
+    created: "2026-05-05T21:36:39.473116+05:30"
+    description: NetApp's Trident protect helm chart for Kubernetes Data Management.
+    digest: 4850a054bdcc7a9538cec26082b9d8c8d17c274f3b2d7f11233b211d4f0d4cc9
+    kubeVersion: '>= 1.24.0-0'
+    name: trident-protect
+    type: application
+    urls:
+    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-100.2604.0.tgz
+    version: 100.2604.0
+generated: "2026-05-05T21:36:39.470605+05:30"
