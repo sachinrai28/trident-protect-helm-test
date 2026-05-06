@@ -3,7 +3,7 @@ entries:
   trident-protect-console:
   - apiVersion: v2
     appVersion: 26.05.1-console
-    created: "2026-05-06T12:39:49.533979+05:30"
+    created: "2026-05-06T12:46:02.019657+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
@@ -18,7 +18,7 @@ entries:
     version: 100.2605.1-console
   - apiVersion: v2
     appVersion: 26.05.0-console
-    created: "2026-05-06T12:39:49.531257+05:30"
+    created: "2026-05-06T12:46:02.015814+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
@@ -33,7 +33,7 @@ entries:
     version: 100.2605.0-console
   - apiVersion: v2
     appVersion: 26.04.0-console
-    created: "2026-05-06T12:39:49.527513+05:30"
+    created: "2026-05-06T12:46:02.010804+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
@@ -46,4 +46,4 @@ entries:
     urls:
     - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2604.0-console.tgz
     version: 100.2604.0-console
-generated: "2026-05-06T12:39:49.523885+05:30"
+generated: "2026-05-06T12:46:02.00734+05:30"
