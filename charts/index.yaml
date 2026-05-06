@@ -2,14 +2,29 @@ apiVersion: v1
 entries:
   trident-protect-console:
   - apiVersion: v2
+    appVersion: 26.05.1-console
+    created: "2026-05-06T12:39:49.533979+05:30"
+    dependencies:
+    - name: trident-protect
+      repository: ""
+      version: 100.2605.1-console
+    description: helm chart for NetApp Trident Protect Connector and Trident Protect.
+    digest: a8fb3b4b31f3c6aaa307f1c927e2a29bd40921d064291a11629fb5866a73dd4c
+    kubeVersion: '>= 1.24.0-0'
+    name: trident-protect-console
+    type: application
+    urls:
+    - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2605.1-console.tgz
+    version: 100.2605.1-console
+  - apiVersion: v2
     appVersion: 26.05.0-console
-    created: "2026-05-05T23:43:20.705543+05:30"
+    created: "2026-05-06T12:39:49.531257+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
       version: 100.2605.0-console
     description: helm chart for NetApp Trident Protect Connector and Trident Protect.
-    digest: 3fe7d677e56d5762e73310acf2ed0a4c270369635db9a55afeb60c8b6ebb1418
+    digest: 64f5784ba8faabb76bbe05bd02a1af94dd3795943ddcb01302727e1278c01ed7
     kubeVersion: '>= 1.24.0-0'
     name: trident-protect-console
     type: application
@@ -18,17 +33,17 @@ entries:
     version: 100.2605.0-console
   - apiVersion: v2
     appVersion: 26.04.0-console
-    created: "2026-05-05T23:43:20.701773+05:30"
+    created: "2026-05-06T12:39:49.527513+05:30"
     dependencies:
     - name: trident-protect
       repository: ""
       version: 100.2604.0-console
     description: helm chart for NetApp Trident Protect Connector and Trident Protect.
-    digest: 173a0c0e581251ee5121b56a1051cbbed4973b24c719b7bb532d15ecc2b36505
+    digest: 8bb9bdfc1b6c96bec8b484d679bff22007af2c173c57faff51069426923cf45c
     kubeVersion: '>= 1.24.0-0'
     name: trident-protect-console
     type: application
     urls:
     - https://sachinrai28.github.io/trident-protect-helm-test/charts/trident-protect-console-100.2604.0-console.tgz
     version: 100.2604.0-console
-generated: "2026-05-05T23:43:20.695814+05:30"
+generated: "2026-05-06T12:39:49.523885+05:30"
